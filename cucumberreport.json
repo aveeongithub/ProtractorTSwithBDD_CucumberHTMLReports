@@ -1,0 +1,881 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Additional flow for the Assessment",
+    "line": 1,
+    "id": "additional-flow-for-the-assessment",
+    "tags": [],
+    "uri": "e2e/features/additional-flows.feature",
+    "elements": [
+      {
+        "id": "additional-flow-for-the-assessment;search-a-valid-character-then-clear-text-field-and-hit-search",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Search a valid character then clear text field and hit search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the user selectes person radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters the \"Darth\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hits Search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the details of the person",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clears the textfield",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user hits Search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should should not find the user",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "additional-flow-for-the-assessment;searching-by-pressing-the-\"enter\"-key",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Searching by pressing the \"Enter\" Key",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user selectes person radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user enters the \"Darth\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user presses Enter Key",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the user should see the details of the person",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "additional-flow-for-the-assessment;validation-for-a-persons'-name-in-planet-section",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Validation for a persons' name in planet section",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the user selectes person radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the user enters the \"Luke\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the user presses Enter Key",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the user should see the details of the person",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user selectes planet radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the user hits Search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the user should should not find the user",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "additional-flow-for-the-assessment;search-result-for-multiple-finds",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Search result for multiple finds",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the user selectes person radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "the user enters the \"LU\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "the user presses Enter Key",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the user should see the details of the person",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 789000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the user selectes planet radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "the user hits Search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the user should should not find the user",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 409000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Check the installation of the protractor framework",
+    "line": 1,
+    "id": "check-the-installation-of-the-protractor-framework",
+    "tags": [],
+    "uri": "e2e/features/assessment-check.feature",
+    "elements": [
+      {
+        "id": "check-the-installation-of-the-protractor-framework;open-the-browser",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open the browser",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5229000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Check the Characters in Starwars",
+    "line": 1,
+    "id": "check-the-characters-in-starwars",
+    "tags": [],
+    "uri": "e2e/features/search-character.feature",
+    "elements": [
+      {
+        "id": "check-the-characters-in-starwars;search-a-valid-character",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Search a valid character",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the user selectes person radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters the \"Luke Skywalker\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hits Search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the details of the person",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Check the Planet in Starwars",
+    "line": 1,
+    "id": "check-the-planet-in-starwars",
+    "tags": [],
+    "uri": "e2e/features/search-planet.feature",
+    "elements": [
+      {
+        "id": "check-the-planet-in-starwars;search-a-valid-planet",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Search a valid Planet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the user selectes planet radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters the \"Hoth\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hits Search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the details of the planet",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-planet-in-starwars;search-a-valid-planet",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search a valid Planet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the user selectes planet radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters the \"Alderaan\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hits Search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the details of the planet",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-planet-in-starwars;search-for-an-invalid-character",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Search for an invalid character",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "The app is open on \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user selectes planet radiobutton",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enters the an incorrect name",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user hits Search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the user should should not find the planet",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
